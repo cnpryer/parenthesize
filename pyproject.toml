@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "parenthesize"
+version = "0.0.1"
+description = ""
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black ==23.7.0",
+    "ruff ==0.0.284",
+]
